@@ -1,8 +1,71 @@
+html,body{
+  padding: 0px;
+  margin: 0px;
+}
+a,a:hover:a:link:a:visited{
+  color:inherit;
+  text-decoration: none;
+}
 header{
   text-align: center;
+}
+nav{
+    background-color: #71224f;
+    height: 50px;
+    padding-top: 5px;
+}
+nav a{
+  margin-left: 20px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.8rem;
 }
  #logo{
    width:180px;
    display: inline;
 }
-/*color #71224f;*/
+
+/*banner styles*/
+.banner{
+  min-width: 100%;
+  height: 500px;
+  padding-top: 90px;
+}
+#banner1{
+  background-color: #22AF4B;
+}
+#banner2{
+  background-color:#FF530D;
+}
+#banner3{
+  background-color: #C9060D;
+}
+/*side menu*/
+.side-menu{
+  background-color: #ffffff;
+  height: 320px;
+  width:55px;
+  margin-left: 10%;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+.side-nav-icon{
+  width:50px;
+  height:50px;
+  background-color: #C1155B;
+  border-radius: 25px;
+  margin-left: 2px;
+  margin-top: 10px;
+  font-size: 2rem;
+  color:#A1A1A1;
+  text-align: center;
+}
+.side-nav-icon i {
+  margin-top: 8px;
+}
+#icon1,#icon2,#icon3{
+  background-color: #5CD4D7;
+  color: white;
+}
