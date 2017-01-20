@@ -34,13 +34,13 @@ nav a{
   padding-top: 90px;
 }
 #banner1{
-  background-color: #22AF4B;
+  background-color: #EAA012;
 }
 #banner2{
-  background-color:#FF530D;
+  background-color:#D74404;
 }
 #banner3{
-  background-color: #C9060D;
+  background-color: #D6125E;
 }
 /*side menu*/
 .side-menu{
@@ -54,18 +54,50 @@ nav a{
 .side-nav-icon{
   width:50px;
   height:50px;
-  background-color: #C1155B;
+  background-color:  #A1A1A1;
   border-radius: 25px;
   margin-left: 2px;
   margin-top: 10px;
   font-size: 2rem;
-  color:#A1A1A1;
+  color:#71224F;
   text-align: center;
 }
 .side-nav-icon i {
   margin-top: 8px;
 }
 #icon1,#icon2,#icon3{
-  background-color: #5CD4D7;
-  color: white;
+  background-color: #EAA012;
+  color: #D6125E;
 }
+
+/*Count down styles*/
+.event-intro{
+  position: relative;
+  bottom: 380px;
+  margin-left: 235px;
+  font-size:3rem;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.count-down{
+  float: right;
+  position: relative;
+  bottom:350px;
+  margin-right: 111px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  color:white;
+
+  }
+  .counter-header{
+    position: relative;
+      left: 20px;
+  }
+  .days-counter{
+    font-size:  7rem;
+  }
+  .sub{
+    position: relative;
+      right: 50px;
+  }

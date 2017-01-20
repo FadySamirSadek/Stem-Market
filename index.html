@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Stem Market 2017</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/style.css">
   </head>
@@ -20,14 +21,14 @@
       <div class="banner" id="banner1">
         <div class="side-menu">
           <div class="side-nav-icon" id="icon1">
-            <i class="fa fa-user" aria-hidden="true"></i>
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
           </div>
-          <a href="#banner2">
+          <a data-scroll  href="#banner2">
             <div class="side-nav-icon">
               <i class="fa fa-cog" aria-hidden="true"></i>
             </div>
           </a>
-          <a href="#banner3">
+          <a data-scroll  href="#banner3">
             <div class="side-nav-icon">
               <i class="fa fa-phone" aria-hidden="true"></i>
             </div>
@@ -39,18 +40,30 @@
 
           </div>
         </div>
+
+        <!--Count Down-->
+        <h2 class="event-intro">Event starts in ...</h2>
+        <div class="count-down">
+          <h2 class="counter-header" >DAYS</h2>
+          <div class="days-counter" id="days-div">
+            30
+          </div>
+          <div class="sub" id="time-div">
+          </div>
+        </div>
+
       </div>
       <div class="banner" id="banner2">
         <div class="side-menu" >
-          <a href="#banner1">
+          <a data-scroll  href="#banner1">
             <div class="side-nav-icon" >
-                <i class="fa fa-user" aria-hidden="true"></i>
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
             </div>
           </a>
           <div class="side-nav-icon" id="icon2">
             <i class="fa fa-cog" aria-hidden="true"></i>
           </div>
-          <a href="#banner3">
+          <a data-scroll href="#banner3">
             <div class="side-nav-icon">
               <i class="fa fa-phone" aria-hidden="true"></i>
             </div>
@@ -65,12 +78,12 @@
       </div>
       <div class="banner" id="banner3">
         <div class="side-menu" >
-          <a href="#banner1">
+          <a data-scroll href="#banner1">
             <div class="side-nav-icon" >
-                <i class="fa fa-user" aria-hidden="true" ></i>
+                <i class="fa fa-clock-o" aria-hidden="true" ></i>
             </div>
           </a>
-          <a href="#banner2">
+          <a data-scroll href="#banner2">
             <div class="side-nav-icon">
               <i class="fa fa-cog" aria-hidden="true"></i>
             </div>
@@ -87,5 +100,11 @@
         </div>
       </div>
     </div>
+
+    <script type="text/javascript" src="js/timer.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script type="text/javascript">
+          smoothScroll.init();
+    </script>
   </body>
 </html>
